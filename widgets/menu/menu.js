@@ -21,8 +21,7 @@
       </nav>';
 
     const styleSheet = document.createElement('link');
-    // styleSheet.setAttribute("href", "./widgets/menu/menu.css");    // Use this line if testing locally
-    styleSheet.setAttribute("href", "fuzzyfeelings/widgets/menu/menu.css");   // needed for github
+    styleSheet.setAttribute("href", "widgets/menu/menu.css");
     styleSheet.setAttribute("rel", "stylesheet");
     document.head.appendChild(styleSheet);
   }
