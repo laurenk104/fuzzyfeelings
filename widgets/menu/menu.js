@@ -21,7 +21,7 @@
       </nav>';
 
     const styleSheet = document.createElement('link');
-    styleSheet.setAttribute("href", "../widgets/menu/menu.css");
+    styleSheet.setAttribute("href", "widgets/menu/menu.css");
     styleSheet.setAttribute("rel", "stylesheet");
     document.head.appendChild(styleSheet);
   }
