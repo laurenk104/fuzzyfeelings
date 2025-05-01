@@ -1,0 +1,78 @@
+.tab {
+  background-color: #f7a85f;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  border-radius: 30px;
+  gap: 10px 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes movingArrow {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.tab button {
+  background-color: transparent;
+  color: #064279;
+  border: 0;
+  font-family: 'Nunito';
+  align-self: flex-start;
+  font-size: medium;
+}
+
+.tab button:hover {
+  color: white;
+}
+
+.tab button:hover .arrow {
+  animation: movingArrow 1s infinite;
+  display: inline-block;
+}
+
+.tab h1 {
+  color: white;
+  margin: auto;
+}
+
+.tab label {
+  color: white;
+  font-family: 'Nunito';
+}
+
+.tab input, .tab textarea {
+  border-radius: 10px;
+  color: #064279;
+  font-family: 'Nunito';
+  padding: 2%;
+  border: 0;
+  font-size: large;
+  background-color: white;
+}
+
+.tab input:hover, .tab textarea:hover {
+  background-color: lightgray;
+}
+
+.tab textarea {
+  resize: none;
+}
+
+.tab p {
+  background-color: white;
+  padding: 5%;
+  color: #064279;
+  font-family: 'Nunito';
+  border-radius: 5px 5px 30px 30px;
+}

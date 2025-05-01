@@ -65,6 +65,7 @@ nav a:active {
   font-size: 0.8em;
   border: 0;
   color: white;
+  cursor: pointer;
 }
 
 #join:hover {
