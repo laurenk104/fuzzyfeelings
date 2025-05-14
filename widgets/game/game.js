@@ -11,7 +11,7 @@
 
   function init() {
     const container = document.querySelector(".game");
-    container.innerHTML = '<iframe frameborder="0" src="https://itch.io/embed-upload/13482626?color=333333" allowfullscreen="" width="640" height="380"><a href="https://laurenk104.itch.io/test">Play Test on itch.io</a></iframe>';
+    container.innerHTML = '<iframe frameborder="0" src="https://itch.io/embed-upload/13681247?color=333333" allowfullscreen="" width="1120" height="670"><a href="https://laurenk104.itch.io/mixed-emotions">Play Mixed Emotions on itch.io</a></iframe>';
     // let id = container.querySelector("script").getAttribute("data-id");
     // container.appendChild(createEmbed(SOURCES[id]));
 
